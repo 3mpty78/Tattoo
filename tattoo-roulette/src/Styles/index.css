@@ -1,6 +1,7 @@
 @import "./normalize.css";
 @import "./Header.css";
 @import "./variables.css";
+@import "./home.css";
 @font-face {
   font-family: "Rantera", "Vintage", "Almendra", verdana;
   src: local("Rantera.otf"), url(../assets/fonts/Rantera.otf);

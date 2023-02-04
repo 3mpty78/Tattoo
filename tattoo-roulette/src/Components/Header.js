@@ -14,7 +14,7 @@ const Header = () => {
         <nav>
           <ul>
             <li>
-              <a href="../Pages/Home.js">Accueil</a>
+              <a href="../Pages/Home.js">Home</a>
             </li>
             <li>
               <a href="../Pages/Spin.js">Spin</a>
@@ -23,7 +23,7 @@ const Header = () => {
               <a href="../Pages/Infos.js">Infos</a>
             </li>
             <li>
-              <a href="../Pages/Artistes.js">Artistes</a>
+              <a href="../Pages/Artistes.js">Artists</a>
             </li>
             <li>
               <a href="../Pages/Contact.js">Contact</a>

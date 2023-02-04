@@ -1,0 +1,21 @@
+main {
+  background: url(../assets/img/arm.webp) no-repeat center/cover;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+h2 {
+  color: var(--white);
+  font-size: 4em;
+  margin: 5% 10%;
+  line-height: 2em;
+  font-family: "Almendra";
+  font-weight: lighter;
+}
+strong {
+  font-weight: bold;
+  font-family: "Rantera";
+}
+span {
+  font-weight: bold;
+}
