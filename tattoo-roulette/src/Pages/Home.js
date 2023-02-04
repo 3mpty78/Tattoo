@@ -14,13 +14,13 @@ const Home = () => {
         </section>
         <section className="cards">
           <article>
-            <div className="freaksPhoto"></div>
-            <h3>Freaks And Geeks Tattoo</h3>
-            <h4>Salon à Paris</h4>
+            <div className="freaksPicture"></div>
+            <h3>Freaks and Geeks Tattoo</h3>
+            <h4>Tattoo shop based in Paris</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse
-              perspiciatis impedit quo iure dolore animi velit facilis, ex
-              assumenda.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+              voluptatem vel officiis accusantium hic sed laborum deserunt autem
+              totam fuga.
             </p>
           </article>
         </section>
