@@ -1,2 +1,13 @@
 @import "./normalize.css";
-@import "./App.css";
+@import "./Header.css";
+@import "./variables.css";
+@font-face {
+  font-family: "Rantera", "barber", "Almendra", verdana;
+  src: local("Rantera.otf"), url(../assets/fonts/Rantera.otf);
+  src: local("barber.ttf"), url(../assets/fonts/barber.ttf);
+  src: local("Almendra.otf"), url(../assets/fonts/Almendra.otf);
+}
+
+body {
+  font-family: "Rantera", "barber", "Almendra", verdana;
+}

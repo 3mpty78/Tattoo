@@ -5,8 +5,10 @@ const Header = () => {
   return (
     <>
       <header>
-        <h1>Tattoo Roulette</h1>
-        <img src="../logo.png" alt="Logo de la page" />
+        <section>
+          <h1>Tattoo Roulette</h1>
+          <img src="../logo.png" alt="Logo de la page" />
+        </section>
         <nav>
           <ul>
             <li>

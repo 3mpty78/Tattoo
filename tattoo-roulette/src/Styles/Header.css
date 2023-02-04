@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--white);
+}
+section {
+  width: 25%;
+  height: fit-content;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+h1 {
+  font-family: "barber";
+}
