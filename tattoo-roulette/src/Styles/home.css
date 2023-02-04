@@ -1,16 +1,22 @@
 main {
-  background: url(../assets/img/arm.webp) no-repeat center/cover;
   margin: 0;
   padding: 0;
+  height: auto;
+}
+.welcome {
+  background: url(../assets/img/arm.webp) no-repeat center/cover;
   height: 100vh;
+  width: auto;
+  display: flex;
+  align-items: flex-start;
 }
 h2 {
   color: var(--white);
   font-size: 4em;
-  margin: 5% 10%;
   line-height: 2em;
   font-family: "Almendra";
   font-weight: lighter;
+  margin: 5% 10%;
 }
 strong {
   font-weight: bold;
@@ -18,4 +24,27 @@ strong {
 }
 span {
   font-weight: bold;
+}
+.cards {
+  height: 100vh;
+  overflow: hidden;
+  width: auto;
+  border: 1px solid red;
+  justify-content: center;
+  background: url(../assets/img/studio.webp) no-repeat center/cover;
+}
+article {
+  border: 1px solid red;
+  width: auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+  backdrop-filter: blur(20px);
+}
+.freaksPhoto {
+  background: url(../assets/img/freaks.webp) no-repeat center/cover;
+  width: 25em;
+  height: 30em;
 }

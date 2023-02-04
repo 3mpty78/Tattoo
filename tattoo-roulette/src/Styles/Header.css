@@ -56,5 +56,5 @@ li:hover {
   transform: scale(1.15);
 }
 a:hover {
-  color: var(--blue);
+  color: var(--red);
 }
