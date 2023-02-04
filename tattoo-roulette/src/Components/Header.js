@@ -5,7 +5,8 @@ const Header = () => {
   return (
     <>
       <header>
-        <img src="../Assets/img/logo.png" alt="Logo de la page" />
+        <h1>Tattoo Roulette</h1>
+        <img src="../logo.png" alt="Logo de la page" />
         <nav>
           <ul>
             <li>
