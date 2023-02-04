@@ -37,7 +37,8 @@ ul {
 li {
   list-style-type: none;
   text-decoration: none;
-  font-family: "Almendra";
+  font-family: "Rantera";
+  font-weight: bold;
   color: var(--black);
   transition: 0.4s;
 }
