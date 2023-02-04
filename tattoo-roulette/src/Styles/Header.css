@@ -1,7 +1,7 @@
 header {
-  width: 100%;
+  width: auto;
   margin: 0;
-  padding: 0;
+  padding: 0 1.5em;
   height: fit-content;
   display: flex;
   flex-flow: row wrap;
@@ -10,12 +10,45 @@ header {
   background: var(--white);
 }
 section {
-  width: 25%;
+  width: fit-content;
   height: fit-content;
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
 }
 h1 {
-  font-family: "Vintage";
+  font-family: "Rantera";
+  font-size: 3em;
+  padding: 0 0.5em;
+}
+img[src="../logo.png"] {
+  width: 5em;
+}
+nav {
+  width: 50%;
+}
+ul {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+li {
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Almendra";
+  color: var(--black);
+  transition: 0.4s;
+}
+a {
+  color: var(--black);
+  text-decoration: none;
+  font-size: 1.8em;
+}
+
+/* Hover animations */
+
+li:hover {
+  transform: scale(1.15);
 }

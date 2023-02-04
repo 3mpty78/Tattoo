@@ -9,5 +9,8 @@
 }
 
 body {
-  font-family: "Rantera", "Vintage", "Almendra", verdana;
+  display: flex;
+  flex-flow: column nowrap;
+  height: auto;
+  width: 100vw;
 }
