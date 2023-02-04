@@ -1,10 +1,11 @@
+import Home from "./Pages/Home";
 import "./Styles/App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 
