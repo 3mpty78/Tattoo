@@ -26,14 +26,14 @@ h1 {
 img[src="../logo.png"] {
   width: 5em;
 }
-nav {
+.navigation {
   width: 50%;
 }
 ul {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 li {
   list-style-type: none;
@@ -53,7 +53,5 @@ a {
 /* Hover animations */
 li:hover {
   transform: scale(1.15);
-}
-a:hover {
   color: var(--red);
 }
