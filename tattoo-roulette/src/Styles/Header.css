@@ -8,7 +8,7 @@ header {
   align-items: center;
   justify-content: space-between;
   background: var(--white);
-  box-shadow: 0 5px 10px var(--black);
+  box-shadow: 0 5px 20px var(--black);
 }
 section {
   width: fit-content;

@@ -13,5 +13,5 @@ body {
   display: flex;
   flex-flow: column nowrap;
   height: auto;
-  width: 100vw;
+  width: auto;
 }
