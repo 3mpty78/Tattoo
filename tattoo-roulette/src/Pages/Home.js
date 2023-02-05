@@ -17,7 +17,7 @@ function Home() {
           <div className="panel bottom">
             <div className="content">
               <div className="description">
-                <h2>We find artists</h2>
+                <h2>Get it</h2>
               </div>
               <div className="OriginalPicture"></div>
             </div>
@@ -25,7 +25,7 @@ function Home() {
           <div className="panel top">
             <div className="content">
               <div className="description">
-                <h2>You choose your Design</h2>
+                <h2>Choose it</h2>
               </div>
               <div className="afterPicture"></div>
             </div>
