@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
           </div>
           <div className="handle"></div>
         </section>
+        <Footer />
       </main>
     </>
   );
