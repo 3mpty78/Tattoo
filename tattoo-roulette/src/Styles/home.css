@@ -84,12 +84,15 @@ span {
 .top .description {
   left: 5%;
 }
+.top h2 {
+  font-family: "Rantera";
+}
 .handle {
   height: 100%;
   position: absolute;
   display: block;
   background-color: var(--white);
-  width: 5px;
+  width: 15px;
   top: 0;
   left: 50%;
   z-index: 3;

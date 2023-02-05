@@ -16,8 +16,7 @@ function Home() {
           <div className="panel bottom">
             <div className="content">
               <div className="description">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h2>We offer you artists</h2>
               </div>
               <div className="OriginalPicture"></div>
             </div>
@@ -25,8 +24,7 @@ function Home() {
           <div className="panel top">
             <div className="content">
               <div className="description">
-                <h2>Title</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                <h2>You choose your Design</h2>
               </div>
               <div className="afterPicture"></div>
             </div>
