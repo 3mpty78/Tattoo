@@ -98,6 +98,7 @@ span {
   width: 15px;
   top: 0;
   left: 50%;
+  box-shadow: 0 5px 20px var(--black);
   z-index: 3;
 }
 .skewed .handle {

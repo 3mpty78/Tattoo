@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
+import Slider from "../Components/Slider";
 
 function Home() {
   return (
@@ -13,7 +14,8 @@ function Home() {
             We find the perfect <span>artist</span>.
           </h2>
         </section>
-        <section className="splitview skewed">
+        <Slider />
+        {/* <section className="splitview skewed">
           <div className="panel bottom">
             <div className="content">
               <div className="description">
@@ -31,7 +33,7 @@ function Home() {
             </div>
           </div>
           <div className="handle"></div>
-        </section>
+        </section> */}
         <Footer />
       </main>
     </>

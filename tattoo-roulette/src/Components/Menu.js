@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Styles() {
+export default function Menu() {
   const [name, setName] = useState("New School");
 
   function handleNameChange(e) {
