@@ -12,14 +12,26 @@ export default function Styles() {
       <label>
         Choisis ton style :
         <select value={name} onChange={handleNameChange}>
-          <option value="New School">New School</option>
-          <option value="Old School">Old School</option>
-          <option value="Japonais">Japonais</option>
           <option value="3D">3D</option>
+          <option value="Abstrait">Abstrait</option>
+          <option value="Biomécanique">Biomécanique</option>
+          <option value="Blackwork">Blackwork</option>
+          <option value="Caligraphie">Caligraphie</option>
+          <option value="Cartoon">Cartoon</option>
+          <option value="Géométrique">Géométrique</option>
+          <option value="Japonais">Japonais</option>
+          <option value="New School">New School</option>
+          <option value="Noir et Gris">Noir et Gris</option>
+          <option value="Old School">Old School</option>
+          <option value="Polynésien">Polynésien</option>
+          <option value="Portrait">Portrait</option>
+          <option value="Réaliste">Réaliste</option>
+          <option value="Stick N' Poke">Stick N' Poke</option>
+          <option value="Trash Polka">Trash Polka</option>
+          <option value="Tribal">Tribal</option>
         </select>
       </label>
-      <p>T'as choisis {result}</p>
-      <button>Valider</button>
+      <button>{name}</button>
     </>
   );
 }
