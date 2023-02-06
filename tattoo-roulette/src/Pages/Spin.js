@@ -7,6 +7,12 @@ const Spin = () => {
     <>
       <Header />
       <Menu />
+      <section className="container">
+        <figure>
+          <div className="img"></div>
+          <figcaption>bla blu bli blo blo</figcaption>
+        </figure>
+      </section>
     </>
   );
 };

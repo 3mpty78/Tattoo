@@ -2,7 +2,6 @@ import { useState } from "react";
 
 export default function Styles() {
   const [name, setName] = useState("New School");
-  const result = name;
 
   function handleNameChange(e) {
     setName(e.target.value);
