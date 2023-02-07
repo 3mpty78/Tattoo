@@ -1,11 +1,15 @@
 @import "./normalize.css";
 @import "./variables.css";
 @import "./home.css";
+@import "./infos.css";
 @font-face {
-  font-family: "Rantera", "Vintage", "Almendra", verdana;
+  font-family: "Rantera", "Candara", "Almendra", verdana;
   src: local("Rantera.otf"), url(../assets/fonts/Rantera.otf);
-  src: local("Vintage.otf"), url(../assets/fonts/Vintage.otf);
+  src: local("CANDARA.TTF"), url(../assets/fonts/CANDARA.TTF);
   src: local("Almendra.otf"), url(../assets/fonts/Almendra.otf);
+}
+* {
+  user-select: none;
 }
 
 body {

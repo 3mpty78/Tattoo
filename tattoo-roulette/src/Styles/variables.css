@@ -7,3 +7,8 @@
   --blue: hsl(192, 55%, 50%);
   --white: hsl(210, 14%, 89%);
 }
+
+/* Shadow */
+:root {
+  --shadow: 0 0 10px var(--black);
+}

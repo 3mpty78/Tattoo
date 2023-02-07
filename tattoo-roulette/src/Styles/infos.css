@@ -1,0 +1,78 @@
+#infos {
+  margin: 0;
+  padding: 0;
+  height: 85vh;
+  display: flex;
+  background: var(--white);
+}
+.soins {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  height: 75%;
+  padding: 0 1em;
+}
+.soins .imgContainer {
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+  background: url(../assets/img/heal2.webp) no-repeat center/cover;
+}
+.textContainer {
+  width: 50%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  color: var(--black);
+}
+.soins h2 {
+  font-size: 3em;
+  text-align: center;
+  color: var(--red);
+  font-weight: bold;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+}
+.soins h3 {
+  font-size: 1.5em;
+  font-family: "Candara";
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+}
+.textContainer p {
+  width: 90%;
+  font-size: 1.5em;
+  font-family: "Candara";
+  text-align: justify;
+  line-height: 1.5em;
+}
+#btn {
+  width: 15%;
+  height: 5vh;
+  border: 1px solid var(--red);
+  border-radius: 10px;
+  background: none;
+  color: var(--black);
+  font-family: "Candara";
+  font-size: 1.2em;
+  transition: 0.4s;
+}
+#btn:hover {
+  background: var(--red);
+  color: var(--white);
+  transform: scale(1.05);
+  border: none;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+}
+#btn:active {
+  transform: scale(0.95);
+}

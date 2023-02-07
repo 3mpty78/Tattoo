@@ -1,14 +1,17 @@
 header {
+  position: sticky;
+  top: 0;
   width: auto;
   margin: 0;
   padding: 0 1.5em;
-  height: fit-content;
+  height: 15vh;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
   justify-content: space-between;
   background: var(--white);
   box-shadow: 0 5px 20px var(--black);
+  z-index: 4;
 }
 section {
   width: fit-content;

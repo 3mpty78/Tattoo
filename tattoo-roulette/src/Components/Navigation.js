@@ -6,16 +6,16 @@ const Navigation = () => {
     <div className="navigation">
       <ul>
         <NavLink to="/">
-          <li>Home</li>
-        </NavLink>
-        <NavLink to="/spin">
-          <li>Spin</li>
+          <li>Accueil</li>
         </NavLink>
         <NavLink to="/infos">
           <li>Infos</li>
         </NavLink>
+        <NavLink to="/spin">
+          <li>Spin</li>
+        </NavLink>
         <NavLink to="/artists">
-          <li>Artists</li>
+          <li>Artistes</li>
         </NavLink>
         <NavLink to="/contact">
           <li>Contact</li>

@@ -12,7 +12,7 @@ export default function Slider() {
     setPosition({
       delta: (e.clientX - window.innerWidth / 2) * 0.5,
     });
-    if (parent.className.indexOf("skewed") != -1) {
+    if (parent.className.indexOf("skewed") !== -1) {
       skew = 1000;
     }
     topPanel.style.width = e.clientX + position.delta + skew + "px";
@@ -25,7 +25,7 @@ export default function Slider() {
         <div className="panel bottom">
           <div className="content">
             <div className="description">
-              <h2>Get it</h2>
+              <h2>Le hasard fait le reste</h2>
             </div>
             <div className="OriginalPicture"></div>
           </div>
@@ -33,7 +33,7 @@ export default function Slider() {
         <div className="panel top">
           <div className="content">
             <div className="description">
-              <h2>Choose it</h2>
+              <h2>Choisis un style</h2>
             </div>
             <div className="afterPicture"></div>
           </div>

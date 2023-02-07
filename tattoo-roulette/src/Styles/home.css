@@ -8,7 +8,7 @@ main {
 }
 .welcome {
   background: url(../assets/img/arm.webp) no-repeat center/cover;
-  height: 100vh;
+  height: 85vh;
   width: auto;
   display: flex;
   align-items: flex-start;
@@ -17,16 +17,16 @@ h2 {
   color: var(--white);
   font-size: 4em;
   line-height: 2em;
-  font-family: "Almendra";
+  font-family: "Rantera";
   font-weight: lighter;
   margin: 5% 10%;
 }
 strong {
   font-weight: bold;
-  font-family: "Rantera";
 }
 span {
   font-weight: bold;
+  font-family: "Almendra";
 }
 
 /* Splitview */
@@ -34,7 +34,7 @@ span {
 .splitview {
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 85vh;
   overflow: hidden;
 }
 .panel {
@@ -64,7 +64,7 @@ span {
 }
 .OriginalPicture,
 .afterPicture {
-  box-shadow: 0 0 20px var(--black);
+  box-shadow: var(--shadow);
   width: 40%;
   height: 50%;
   position: absolute;
