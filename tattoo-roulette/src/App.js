@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Artists from "./Pages/Artists";
 import Contact from "./Pages/Contact";
+import Heal from "./Pages/Heal";
 import Home from "./Pages/Home";
 import Infos from "./Pages/Infos";
 import Spin from "./Pages/Spin";
@@ -17,6 +18,7 @@ function App() {
           <Route path="/infos" element={<Infos />} />
           <Route path="/artists" element={<Artists />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/heal" element={<Heal />} />
         </Routes>
       </BrowserRouter>
     </>

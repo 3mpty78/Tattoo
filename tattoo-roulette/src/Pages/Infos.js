@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import Header from "../Components/Header";
 
 const Infos = () => {
@@ -7,7 +8,7 @@ const Infos = () => {
       <Header />
       <section id="infos">
         <article className="soins">
-          <div className="imgContainer"></div>
+          <div className="healImg"></div>
           <div className="textContainer">
             <h2>Comment entretenir son tatouage</h2>
             <h3>Avoir un tatouage c'est bien, l'entretenir c'est mieux !</h3>
@@ -22,9 +23,12 @@ const Infos = () => {
               l'encre. Mais alors comment faire pour préserver sa peau, les
               couleurs du tatouage, et ainsi éviter au maximum les infections ?
             </p>
-            <button id="btn">Lire l'article</button>
+            <NavLink to="/heal">
+              <button id="btn">Lire l'article</button>
+            </NavLink>
           </div>
         </article>
+        <div className="barre"></div>
       </section>
     </>
   );
