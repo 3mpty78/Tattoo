@@ -23,7 +23,7 @@ const Infos = () => {
               l'encre. Mais alors comment faire pour préserver sa peau, les
               couleurs du tatouage, et ainsi éviter au maximum les infections ?
             </p>
-            <NavLink to="/heal">
+            <NavLink to="/heal" className="button">
               <button id="btn">Lire l'article</button>
             </NavLink>
           </div>

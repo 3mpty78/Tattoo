@@ -2,6 +2,8 @@
 @import "./variables.css";
 @import "./home.css";
 @import "./infos.css";
+@import "./heal.css";
+
 @font-face {
   font-family: "Rantera", "Candara", "Almendra", verdana;
   src: local("Rantera.otf"), url(../assets/fonts/Rantera.otf);

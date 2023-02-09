@@ -62,8 +62,12 @@
   background: none;
   color: var(--black);
   font-family: "Candara";
-  font-size: 1.2em;
   transition: 0.4s;
+}
+.textContainer a {
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
 }
 #btn:hover {
   background: var(--red);
