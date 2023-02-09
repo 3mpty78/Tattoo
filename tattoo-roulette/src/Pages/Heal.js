@@ -16,15 +16,15 @@ const Heal = () => {
             <br />
             Michel vient tout juste de passer 4h sur la table de son artiste
             préféré afin de se faire tatouer ce magnifique motif de dragon
-            japonais découvert sur <span>Tattoo Roulette</span> sur le bras.
-            Fraîchement tatoué et fier de sa nouvelle pièce, Michel rentre chez
-            lui à pied, traversant parcs et avenus et profitant d'un beau
-            soleil. Une fois chez lui, Michel s'empresse de partager son nouveau
-            tatouage avec ses amis sur Instagram, et file se coucher, épuisé.
-            Les jours passent et Michel sent son bras le démanger. Il gratte et
-            frotte mais rien n'y fait : ça gratte ! Quelques semaines plus tard,
-            Michel se rend chez son tatoueur pour lui faire part de la tragédie
-            : son tatouage s'est infecté ! <br />
+            japonais découvert sur <span>Tattoo Roulette</span>. Fraîchement
+            tatoué et fier de sa nouvelle pièce, Michel rentre chez lui à pied,
+            traversant parcs et avenues et profitant d'un beau soleil. Une fois
+            chez lui, Michel s'empresse de partager son nouveau tatouage avec
+            ses amis sur Instagram, et file se coucher, épuisé. Les jours
+            passent et Michel sent son bras le démanger. Il gratte et frotte
+            mais rien n'y fait : ça gratte ! Quelques semaines plus tard, Michel
+            se rend chez son tatoueur pour lui faire part de la tragédie : son
+            tatouage s'est infecté ! <br />
             <br /> Alors pourquoi ? Et comment ? Simplement car Michel n'as pas
             entretenu son tatouage. <br />
             <br />
@@ -42,9 +42,9 @@ const Heal = () => {
               fois et placeront eux-même un pansement stérile sur le tatouage
               afin de le protéger de l'extérieur. A noter qu'au moment du
               coucher, il est préférable de changer ce pansement pour la nuit,
-              car il se peut que du sang et de l'encre aient coulés, et donc il
+              car il se peut que du sang et de l'encre aient coulé, et donc il
               faudra nettoyer tout ça. C'est là que la deuxième étape prend tout
-              son sens, car elle sera a réaliser AVANT de placer le nouveau
+              son sens, car elle sera à réaliser AVANT de placer le nouveau
               pansement.
             </p>
             <div className="coverPicture"></div>
@@ -55,11 +55,11 @@ const Heal = () => {
             <p>
               Il est primordial d'accorder un soin tout particulier au lavage et
               au séchage de votre tatouage. En effet, privilégiez un nettoyage à
-              l'eau tiède pour ne pas brûler votre peau avec un savon doux au pH
-              neutre (de préférence). Pour ce qui est de sécher le tatouage,
-              utilisez une serviette propre et douce, mais ne surtout PAS
-              FROTTER. Tapotez délicatement pour éponger. C'est suffisant. Une
-              fois le tatouage nettoyé et sec, appliquez une fine couche de
+              l'eau tiède pour ne pas brûler votre peau. Utilisez un savon doux
+              au pH neutre (de préférence). Pour ce qui est de sécher le
+              tatouage, utilisez une serviette propre et douce, mais ne surtout
+              PAS FROTTER. Tapotez délicatement pour éponger. C'est suffisant.
+              Une fois le tatouage nettoyé et sec, appliquez une fine couche de
               pommade grasse (type vaseline ou{" "}
               <a href="https://www.hustlebutter.com/" target="_blank">
                 Hustle Butter
@@ -71,16 +71,17 @@ const Heal = () => {
           </article>
           <article className="thirdArticle">
             <div className="third"></div>
-            <h3>Hydratez votre tatouage</h3>
+            <h3>Hydratez votre tatouage !</h3>
             <p>
               Sans surprises (enfin j'espère), il est parfaitement indispensable
               d'hydrater votre tatouage tout au long du processus de
               cicatrisation ! Cela vous évitera notamment les infections. Cette
-              étape est à réaliser 2 à 3 fois par jours pendant une quinzaine de
-              jours (tout dépend de votre capacité de cicatrisation évidemment,
-              ce n'est pas une valeur fixe). Tout comme le nettoyage, hydrater
-              son tatouage est très important. Il faudra donc y apporter le plus
-              grand soin.
+              étape est à réaliser 2 à 3 fois par jours également pendant une
+              quinzaine de jours (tout dépend de votre capacité de cicatrisation
+              évidemment, ce n'est pas une valeur fixe). Tout comme le
+              nettoyage, hydrater son tatouage est très important. Il faudra
+              donc y apporter le plus grand soin. Utilisez la même pommade
+              grasse qu'après le lavage.
             </p>
             <div className="hydroPicture"></div>
           </article>
@@ -106,13 +107,13 @@ const Heal = () => {
               Alors oui, ça croûte, oui c'est dégueulasse, et oui c'est moche.
               Mais c'est un passage obligatoire et malgré les légères
               démangeaisons, il faudra éviter de gratter. Vous risqueriez
-              d'arracher certaines croûtes et donc de créer une cicatrice sur
-              voter peau, ce qui altérera le tracé du tatouage voir même les
+              d'arracher des croûtes et donc de créer une cicatrice sur votre
+              peau, ce qui altérerai le tracé du tatouage voir même les
               couleurs. Laissez les partir toutes seules sous la douche, et tout
               ira pour le mieux.
             </p>
-            <p>
-              En revanche, si vous souffrez de démangeaisons plus aiguës, que
+            <p className="pain">
+              En revanche, si vous souffrez de démangeaisons plus aigües, que
               votre peau rougit et vous brûle : n'attendez pas et prenez conseil
               auprès de votre médecin traitant ou d'un dermatologue. Il se peut
               que vous fassiez une réaction allergique. Mieux vaut prévenir que
@@ -122,7 +123,7 @@ const Heal = () => {
             <p>
               Alors attention, quand je dis « évitez l'eau », je ne vous dis pas
               d'arrêter de vivre ou de vous laver, bien au contraire ! Ce que
-              j'entends par là, c'est d'éviter les eaux salés ou chlorées (mer,
+              j'entends par là, c'est d'éviter les eaux salées ou chlorées (mer,
               piscine, sauna, jacuzzi, et j'en passe…).
             </p>
             <p>

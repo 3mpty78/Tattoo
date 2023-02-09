@@ -137,3 +137,8 @@
   border-radius: 15px;
   background: url(../assets/img/pool.webp) no-repeat center/cover;
 }
+.pain {
+  border: 2px solid var(--red);
+  padding: 1em;
+  border-radius: 15px;
+}
