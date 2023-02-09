@@ -31,6 +31,7 @@ const Heal = () => {
             Comment aurait-il pu éviter cette infection ?
           </p>
         </section>
+        <div className="trait"></div>
         <div className="articles">
           <article className="firstArticle">
             <div className="first"></div>
