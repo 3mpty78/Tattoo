@@ -42,9 +42,9 @@ const Heal = () => {
               fois et placeront eux-même un pansement stérile sur le tatouage
               afin de le protéger de l'extérieur. A noter qu'au moment du
               coucher, il est préférable de changer ce pansement pour la nuit,
-              car il se peut que du sang et de l'encre aient coulé, et donc il
-              faudra nettoyer tout ça. C'est la que la troisième étape prend
-              tout son sens, car elle sera a réaliser AVANT de placer le nouveau
+              car il se peut que du sang et de l'encre aient coulés, et donc il
+              faudra nettoyer tout ça. C'est là que la deuxième étape prend tout
+              son sens, car elle sera a réaliser AVANT de placer le nouveau
               pansement.
             </p>
             <div className="coverPicture"></div>
@@ -55,14 +55,17 @@ const Heal = () => {
             <p>
               Il est primordial d'accorder un soin tout particulier au lavage et
               au séchage de votre tatouage. En effet, privilégiez un nettoyage à
-              l'eau tiède pour ne pas brûler votre peau et avec un savon doux au
-              pH neutre (de préférence). Pour ce qui est de sécher le tatouage,
+              l'eau tiède pour ne pas brûler votre peau avec un savon doux au pH
+              neutre (de préférence). Pour ce qui est de sécher le tatouage,
               utilisez une serviette propre et douce, mais ne surtout PAS
               FROTTER. Tapotez délicatement pour éponger. C'est suffisant. Une
               fois le tatouage nettoyé et sec, appliquez une fine couche de
-              pommade grasse (type vaseline ou Hustle Butter) puis posez votre
-              nouveau pansement. Il est important de nettoyer votre tatouage 2 à
-              3 fois par jours. Et maintenant, au lit !
+              pommade grasse (type vaseline ou{" "}
+              <a href="https://www.hustlebutter.com/" target="_blank">
+                Hustle Butter
+              </a>
+              ) puis posez votre nouveau pansement. Il est important de nettoyer
+              votre tatouage 2 à 3 fois par jours. Et maintenant, au lit !
             </p>
             <div className="washPicture"></div>
           </article>
@@ -108,7 +111,6 @@ const Heal = () => {
               couleurs. Laissez les partir toutes seules sous la douche, et tout
               ira pour le mieux.
             </p>
-            <div className="scarPicture"></div>
             <p>
               En revanche, si vous souffrez de démangeaisons plus aiguës, que
               votre peau rougit et vous brûle : n'attendez pas et prenez conseil

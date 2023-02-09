@@ -52,19 +52,30 @@
   color: var(--white);
   font-family: "Candara";
   font-weight: lighter;
-  text-align: justify;
+  text-align: center;
   font-size: 1.2em;
   line-height: 2em;
 }
 .articles article {
   border-radius: 15px;
   box-shadow: var(--shadow);
-  width: 33%;
+  width: 66%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   margin-top: 1.5em;
   padding: 1em;
+}
+.secondArticle a {
+  font-size: 1.2em;
+  color: var(--blue);
+  font-family: "Candara";
+  transition: 0.4s;
+}
+.secondArticle a:hover {
+  color: var(--red);
+  font-size: 1.3em;
+  font-weight: bold;
 }
 .first,
 .second,
@@ -85,18 +96,44 @@
 .fourth {
   background: url(../assets/icons/numero-4.png) no-repeat center/cover;
 }
-.firstArticle,
-.thirdArticle {
-  margin-left: 50%;
-}
-.secondArticle,
-.fourthArticle {
-  margin-right: 50%;
-}
 .advice {
-  width: 75%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  justify-content: center;
+  height: 85vh;
   margin-top: 1.5em;
+  padding: 0 1.5em;
+  background: linear-gradient(
+    135deg,
+    hsla(351, 100%, 19%, 1) 0%,
+    hsla(351, 100%, 7%, 1) 72%
+  );
+}
+.advice p {
+  width: 75%;
+}
+.coverPicture {
+  width: 45em;
+  height: 25em;
+  border-radius: 15px;
+  background: url(../assets/img/wrapping-tattoo.webp) no-repeat center/cover;
+}
+.washPicture {
+  width: 45em;
+  height: 25em;
+  border-radius: 15px;
+  background: url(../assets/img/washing.webp) no-repeat center/cover;
+}
+.hydroPicture {
+  width: 45em;
+  height: 25em;
+  border-radius: 15px;
+  background: url(../assets/img/aftercare.webp) no-repeat center/cover;
+}
+.soleilPicture {
+  width: 45em;
+  height: 25em;
+  border-radius: 15px;
+  background: url(../assets/img/pool.webp) no-repeat center/cover;
 }
