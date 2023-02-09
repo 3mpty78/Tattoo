@@ -34,17 +34,69 @@
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-  background: var(--white);
+  background-image: linear-gradient(
+    to right bottom,
+    #0e1c26,
+    #1a313e,
+    #254857,
+    #306070,
+    #3c7a89
+  );
+}
+.articles h3 {
+  font-size: 1.8em;
+  color: var(--white);
+  font-family: "Almendra";
+}
+.articles p {
+  color: var(--white);
+  font-family: "Candara";
+  font-weight: lighter;
+  text-align: justify;
+  font-size: 1.2em;
+  line-height: 2em;
 }
 .articles article {
-  border: 1px solid red;
+  border-radius: 15px;
+  box-shadow: var(--shadow);
   width: 33%;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
+  margin-top: 1.5em;
+  padding: 1em;
+}
+.first,
+.second,
+.third,
+.fourth {
+  width: 3em;
+  height: 3em;
 }
 .first {
   background: url(../assets/icons/numero-1.png) no-repeat center/cover;
-  width: 3em;
-  height: 3em;
+}
+.second {
+  background: url(../assets/icons/numero-2.png) no-repeat center/cover;
+}
+.third {
+  background: url(../assets/icons/numero-3.png) no-repeat center/cover;
+}
+.fourth {
+  background: url(../assets/icons/numero-4.png) no-repeat center/cover;
+}
+.firstArticle,
+.thirdArticle {
+  margin-left: 50%;
+}
+.secondArticle,
+.fourthArticle {
+  margin-right: 50%;
+}
+.advice {
+  width: 75%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  margin-top: 1.5em;
 }

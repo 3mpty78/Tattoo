@@ -32,9 +32,9 @@ const Heal = () => {
           </p>
         </section>
         <div className="articles">
-          <article>
+          <article className="firstArticle">
             <div className="first"></div>
-            <h4>Couvrez votre tatouage !</h4>
+            <h3>Couvrez votre tatouage !</h3>
             <p>
               Le temps de faire le trajet retour du salon à chez vous : couvrez
               le tatouage pour éviter aux microbes extérieurs de se coller sur
@@ -49,9 +49,9 @@ const Heal = () => {
             </p>
             <div className="coverPicture"></div>
           </article>
-          <article>
+          <article className="secondArticle">
             <div className="second"></div>
-            <h4>Lavez votre tatouage !</h4>
+            <h3>Lavez votre tatouage !</h3>
             <p>
               Il est primordial d'accorder un soin tout particulier au lavage et
               au séchage de votre tatouage. En effet, privilégiez un nettoyage à
@@ -66,9 +66,9 @@ const Heal = () => {
             </p>
             <div className="washPicture"></div>
           </article>
-          <article>
+          <article className="thirdArticle">
             <div className="third"></div>
-            <h4>Hydratez votre tatouage</h4>
+            <h3>Hydratez votre tatouage</h3>
             <p>
               Sans surprises (enfin j'espère), il est parfaitement indispensable
               d'hydrater votre tatouage tout au long du processus de
@@ -81,9 +81,9 @@ const Heal = () => {
             </p>
             <div className="hydroPicture"></div>
           </article>
-          <article>
+          <article className="fourthArticle">
             <div className="fourth"></div>
-            <h4>Ne pas exposer son tatouage au soleil !</h4>
+            <h3>Ne pas exposer son tatouage au soleil !</h3>
             <p>
               Tant que ce dernier n'est pas cicatrisé (et même après), il faut
               éviter au MAXIMUM de l'exposer aux UV ! Pour rappel, un tatouage
@@ -93,7 +93,7 @@ const Heal = () => {
             </p>
             <div className="soleilPicture"></div>
           </article>
-          <article>
+          <section className="advice">
             <h3>Quelques conseils</h3>
             <p>
               Si dans les jours qui suivent votre tatouage votre peau gonfle
@@ -116,7 +116,7 @@ const Heal = () => {
               que vous fassiez une réaction allergique. Mieux vaut prévenir que
               guérir.
             </p>
-            <h4>Evitez l'eau et le soleil !</h4>
+            <h3>Evitez l'eau et le soleil !</h3>
             <p>
               Alors attention, quand je dis « évitez l'eau », je ne vous dis pas
               d'arrêter de vivre ou de vous laver, bien au contraire ! Ce que
@@ -128,7 +128,7 @@ const Heal = () => {
               d'obtenir une cicatrisation complète. Ce serait dommage de tout
               foirer si près du but.
             </p>
-          </article>
+          </section>
         </div>
       </main>
       <Footer />
