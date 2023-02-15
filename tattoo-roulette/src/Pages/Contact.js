@@ -1,11 +1,26 @@
 import React from "react";
-import Header from "../Components/Header";
 
 const Contact = () => {
+  function Submit() {
+    const handleSumbit = (e) => {
+      e.preventDefault();
+    };
+  }
   return (
-    <div>
-      <Header />
-    </div>
+    <>
+      <div>
+        <form action="submit">
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Votre mesage"
+          ></textarea>
+          <button onClick={handleSubmit}>Envoyer</button>
+        </form>
+      </div>
+    </>
   );
 };
 

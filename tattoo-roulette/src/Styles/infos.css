@@ -1,23 +1,55 @@
 #infos {
+  background: url(../assets/img/pexels-cottonbro-studio-4813336.jpg) no-repeat
+    center/cover;
+  height: auto;
+}
+#heal,
+#quiz {
   margin: 0;
   padding: 0;
   height: 85vh;
   display: flex;
-  background: var(--white);
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 .soins {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  height: 75%;
-  padding: 0 1em;
-}
-.soins .healImg {
-  width: 50%;
-  height: 100%;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  width: 95%;
+  backdrop-filter: blur(10px) brightness(0.75);
   border-radius: 25px;
   box-shadow: var(--shadow);
+}
+.vraiFaux {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  height: 80%;
+  padding: 0;
+  margin: 0;
+  width: 95%;
+  backdrop-filter: blur(10px) brightness(0.75);
+  border-radius: 25px;
+  box-shadow: var(--shadow);
+}
+.healImg,
+.quizImg {
+  width: 50%;
+  height: 100%;
+  box-shadow: var(--shadow);
+}
+.healImg {
   background: url(../assets/img/heal2.webp) no-repeat center/cover;
+  border-radius: 25px 0 0 25px;
+}
+.quizImg {
+  background: url(../assets/img/pexels-cottonbro-studio-4125582.jpg) no-repeat
+    center/cover;
+  border-radius: 0 25px 25px 0;
 }
 .textContainer {
   width: 45%;
@@ -25,19 +57,21 @@
   flex-flow: column nowrap;
   align-items: center;
   justify-content: space-evenly;
-  color: var(--black);
+  color: var(--white);
 }
-.soins h2 {
+.soins h2,
+.vraiFaux h2 {
   font-size: 3em;
   text-align: center;
-  color: var(--red);
+  color: var(--yellow);
   font-weight: bold;
   width: 100%;
   height: fit-content;
   padding: 0;
   margin: 0;
 }
-.soins h3 {
+.soins h3,
+.vraiFaux h3 {
   font-size: 1.5em;
   font-family: "Candara";
   text-align: center;
@@ -55,23 +89,23 @@
   line-height: 1.5em;
 }
 #btn {
-  width: 15%;
+  width: 100%;
   height: 5vh;
-  border: 1px solid var(--red);
+  border: 1px solid var(--yellow);
   border-radius: 10px;
   background: none;
-  color: var(--black);
+  color: var(--white);
   font-family: "Candara";
   transition: 0.4s;
 }
 .textContainer a {
   font-size: 1.2em;
   text-align: center;
-  width: 100%;
+  width: 15%;
 }
 #btn:hover {
-  background: var(--red);
-  color: var(--white);
+  background: var(--yellow);
+  color: var(--darkBlue);
   transform: scale(1.05);
   border: none;
   cursor: pointer;
