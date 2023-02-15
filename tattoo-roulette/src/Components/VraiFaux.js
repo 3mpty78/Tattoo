@@ -16,8 +16,8 @@ const VraiFaux = () => {
               donner mon sang ?".
               <br />
               <br />
-              Heureusement, Tattoo Roulette a pensé à toi hehe. On t'as préparé
-              un petit quiz Vrai ou Faux pour t'aider un peu.
+              Heureusement, <span>Tattoo Roulette</span> a pensé à toi hehe. On
+              t'as préparé un petit quiz Vrai ou Faux pour t'aider un peu.
               <br />
               <br />
               Le but de ce quiz est de te renseigner sur les eventuelles
