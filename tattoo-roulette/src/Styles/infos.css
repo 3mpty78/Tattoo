@@ -1,6 +1,5 @@
 #infos {
-  background: url(../assets/img/pexels-cottonbro-studio-4813336.jpg) no-repeat
-    center/cover;
+  background: var(--darkGreen);
   height: auto;
 }
 #heal,
@@ -44,7 +43,7 @@
   box-shadow: var(--shadow);
 }
 .healImg {
-  background: url(../assets/img/heal2.webp) no-repeat center/cover;
+  background: url(../assets/img/knee.webp) no-repeat center/cover;
   border-radius: 25px 0 0 25px;
 }
 .quizImg {
@@ -107,7 +106,7 @@
 }
 #btn:hover {
   background: var(--yellow);
-  color: var(--darkBlue);
+  color: var(--darkGreen);
   transform: scale(1.05);
   border: none;
   cursor: pointer;

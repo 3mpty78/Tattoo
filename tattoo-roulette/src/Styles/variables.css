@@ -2,14 +2,15 @@
 
 :root {
   --black: hsl(140, 10%, 6%);
-  --darkBlue: hsl(206, 45%, 10%);
+  --darkGreen: #001e1d;
   --red: hsl(351, 70%, 38%);
   --blue: hsl(192, 55%, 50%);
-  --white: hsl(210, 14%, 89%);
+  --white: hsl(330, 8%, 90%);
   --yellow: hsl(43, 100%, 51%);
 }
 
 /* Shadow */
 :root {
   --shadow: 0 0 10px var(--black);
+  --text: 0 0 6px rgba(245, 245, 245, 0.452);
 }

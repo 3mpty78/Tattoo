@@ -20,6 +20,7 @@ h2 {
   font-family: "Rantera";
   font-weight: lighter;
   margin: 5% 10%;
+  transition: 0.4s;
 }
 strong {
   font-weight: bold;
@@ -80,7 +81,7 @@ span {
   right: 5%;
 }
 .top {
-  background-color: var(--darkBlue);
+  background-color: var(--darkGreen);
   z-index: 2;
   width: 50vw;
 }

@@ -11,9 +11,8 @@ const VraiFaux = () => {
             <h2>Tattoo Kouiz !</h2>
             <h3>Vrai ou Faux ?</h3>
             <p>
-              Avant un tatouage on a souvent un tas de questions en tête. Du
-              genre : "C'est vrai que si je me fais tatouer je ne pourrais plus
-              donner mon sang ?".
+              Avant un tatouage on a souvent quelques préjugés en tête. Du genre
+              : "C'est vrai que je ne pourrais plus donner mon sang ?".
               <br />
               <br />
               Heureusement, <span>Tattoo Roulette</span> a pensé à toi hehe. On
@@ -26,7 +25,7 @@ const VraiFaux = () => {
               turlupines.
             </p>
             <NavLink to="" className="button">
-              <button id="btn">Let's gooo</button>
+              <button id="btn">Let's go</button>
             </NavLink>
           </div>
         </article>

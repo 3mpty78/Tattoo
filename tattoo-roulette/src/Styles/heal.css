@@ -8,11 +8,13 @@
   height: 85vh;
   font-family: "Candara";
   text-align: center;
-  background: url(../assets/img/tattoo_2.webp) no-repeat center/cover;
+  background: url(../assets/img/handTat.webp) no-repeat center/cover;
 }
 .healContainer h2 {
   color: var(--blue);
   font-weight: bolder;
+  font-size: 5em;
+  text-shadow: var(--text);
   margin: 0;
   padding: 0;
 }
