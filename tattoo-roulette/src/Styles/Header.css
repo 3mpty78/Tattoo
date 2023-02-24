@@ -1,17 +1,22 @@
 header {
-  position: sticky;
-  top: 0;
-  width: auto;
+  position: fixed;
+  width: 100%;
   margin: 0;
   padding: 0;
-  height: 13vh;
+  height: 40vh;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
-  background: var(--bg);
+  justify-content: center;
+  border-bottom: 2px solid var(--white);
+  background: var(--Home);
   box-shadow: 0 5px 20px var(--black);
+  transform: translateY(-100%);
+  transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
   z-index: 4;
+}
+header.active {
+  transform: translateY(0);
 }
 section {
   width: fit-content;
@@ -20,28 +25,34 @@ section {
   flex-flow: row wrap;
   align-items: center;
 }
-h1 {
+.logo {
+  z-index: 3;
+  position: fixed;
+  top: 5%;
+  left: 5%;
+}
+.logo h1 {
   font-family: "Rantera";
-  font-size: 2.5em;
+  font-size: 3em;
   color: var(--white);
   font-weight: 400;
-  padding: 0 1em;
-  margin: 0.4em 0;
+  padding: 0;
+  margin: 0;
   transition: 0.4s;
 }
-img[src="../logo.png"] {
+.logo img[src="../logo.png"] {
   width: 5em;
   transition: 0.4s;
 }
 .navigation {
-  width: 50%;
+  width: 75%;
   padding-right: 1em;
 }
 ul {
   display: flex;
   flex-flow: row wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 0;
   margin: 0;
 }
@@ -55,8 +66,46 @@ li {
 a {
   color: var(--white);
   text-decoration: none;
-  font-size: 1.8em;
+  font-size: 2em;
   transition: 0.4s;
+}
+.nav-toggler {
+  position: fixed;
+  z-index: 10;
+  top: 5%;
+  right: 5%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+.line {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: var(--white);
+  transition: transform 0.3s ease-out, opacity 0.1s ease-out;
+}
+.l1 {
+  transform: translateY(-10px);
+}
+.l3 {
+  transform: translateY(10px);
+}
+.nav-toggler.active .l1 {
+  transform: translateY(0) rotate(135deg);
+}
+.nav-toggler.active .l2 {
+  opacity: 0;
+}
+.nav-toggler.active .l3 {
+  transform: translateY(0) rotate(-135deg);
 }
 
 /* Hover animations */

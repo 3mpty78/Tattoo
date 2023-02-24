@@ -1,16 +1,21 @@
 /* Colors */
 
 :root {
-  --black: hsl(140, 10%, 6%);
+  --black: #0e110f;
   --darkGreen: #001e1d;
-  --bg: linear-gradient(
+  --bgHeader: linear-gradient(
     126deg,
     rgba(39, 28, 25, 1) 0%,
     rgba(85, 66, 61, 1) 100%
   );
   --red: hsl(351, 70%, 38%);
+  --Home: linear-gradient(
+    135deg,
+    rgba(0, 30, 29, 1) 0%,
+    rgba(26, 52, 51, 1) 100%
+  );
   --blue: hsl(192, 55%, 50%);
-  --white: hsl(330, 8%, 90%);
+  --white: #e8e3e6;
   --yellow: #f9bc60;
   --infoGradient: linear-gradient(
     180deg,
