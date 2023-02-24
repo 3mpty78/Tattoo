@@ -8,11 +8,11 @@ const Navigation = () => {
         <NavLink to="/">
           <li>Accueil</li>
         </NavLink>
-        <NavLink to="/infos">
-          <li>Infos</li>
-        </NavLink>
         <NavLink to="/spin">
           <li>Spin</li>
+        </NavLink>
+        <NavLink to="/infos">
+          <li>Infos</li>
         </NavLink>
         <NavLink to="/artists">
           <li>Artistes</li>

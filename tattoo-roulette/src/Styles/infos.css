@@ -1,5 +1,5 @@
 #infos {
-  background: var(--darkGreen);
+  background: var(--infoGradient);
   height: auto;
 }
 #heal,
@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 85vh;
+  height: 87vh;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;

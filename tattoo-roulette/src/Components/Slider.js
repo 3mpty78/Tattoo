@@ -25,15 +25,14 @@ export default function Slider() {
         <div className="panel bottom">
           <div className="content">
             <div className="description">
-              <h2>Le hasard fait le reste</h2>
+              <h2>On trouve l'artiste</h2>
             </div>
-            <div className="OriginalPicture"></div>
           </div>
         </div>
         <div className="panel top">
           <div className="content">
             <div className="description">
-              <h2>Choisis un style</h2>
+              <h2>Trouves ton motif</h2>
             </div>
             <div className="afterPicture"></div>
           </div>

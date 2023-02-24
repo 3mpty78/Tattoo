@@ -3,10 +3,20 @@
 :root {
   --black: hsl(140, 10%, 6%);
   --darkGreen: #001e1d;
+  --bg: linear-gradient(
+    126deg,
+    rgba(39, 28, 25, 1) 0%,
+    rgba(85, 66, 61, 1) 100%
+  );
   --red: hsl(351, 70%, 38%);
   --blue: hsl(192, 55%, 50%);
   --white: hsl(330, 8%, 90%);
-  --yellow: hsl(43, 100%, 51%);
+  --yellow: #f9bc60;
+  --infoGradient: linear-gradient(
+    180deg,
+    rgba(232, 228, 230, 1) 25%,
+    rgba(213, 189, 175, 0.7987570028011204) 100%
+  );
 }
 
 /* Shadow */

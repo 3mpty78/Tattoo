@@ -8,7 +8,7 @@ main {
 }
 .welcome {
   background: url(../assets/img/arm.webp) no-repeat center/cover;
-  height: 85vh;
+  height: 87vh;
   width: auto;
   display: flex;
   align-items: flex-start;
@@ -35,7 +35,7 @@ span {
 .splitview {
   position: relative;
   width: 100%;
-  height: 85vh;
+  height: 87vh;
   overflow: hidden;
 }
 .panel {
@@ -51,45 +51,51 @@ span {
   color: var(--white);
 }
 .panel .description {
-  width: 25%;
+  width: fit-content;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
 }
-.OriginalPicture {
-  background: url(../assets/img/artist.webp) no-repeat center/cover;
-}
 .afterPicture {
   background: url(../assets/img/sketch.webp) no-repeat center/cover;
-}
-.OriginalPicture,
-.afterPicture {
   box-shadow: var(--shadow);
-  width: 40%;
-  height: 50%;
+}
+.afterPicture {
+  width: 55%;
+  height: 70%;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%, -50%);
 }
 .bottom {
-  background-color: var(--black);
+  /* background-color: var(--black); */
+  background: url(../assets/img/oldSchool.webp) no-repeat center/cover;
   z-index: 1;
 }
 .bottom .description {
   right: 5%;
 }
+.bottom h2 {
+  font-size: 6em;
+  font-weight: 500;
+  width: fit-content;
+}
 .top {
-  background-color: var(--darkGreen);
+  background-color: var(--white);
   z-index: 2;
   width: 50vw;
 }
 .top .description {
-  left: 5%;
+  left: 0;
+  z-index: 3;
 }
 .top h2 {
   font-family: "Rantera";
+  font-size: 6em;
+  font-weight: 500;
+  color: var(--darkGreen);
 }
 .handle {
   height: 100%;

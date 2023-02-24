@@ -8,12 +8,6 @@ function Home() {
     <>
       <main>
         <Header />
-        <section className="welcome">
-          <h2>
-            Trouves ton <strong>motif</strong>, <br />
-            On se charge de l'<span>artiste</span>.
-          </h2>
-        </section>
         <Slider />
         <Footer />
       </main>
