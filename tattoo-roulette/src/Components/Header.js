@@ -10,7 +10,7 @@ const Header = () => {
         <h1>
           Tattoo <br /> Roulette
         </h1>
-        <img src="../logo.png" alt="Logo de la page" />
+        {/* <img src="../logo.png" alt="Logo de la page" /> */}
       </section>
       <header className="headerito">
         <Navigation />

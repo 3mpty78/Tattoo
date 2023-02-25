@@ -6,108 +6,34 @@ main {
   padding: 0;
   height: auto;
 }
-h2 {
-  color: var(--white);
-  font-size: 4em;
-  line-height: 2em;
-  font-family: "Rantera";
-  font-weight: lighter;
-  margin: 5% 10%;
-  transition: 0.4s;
-}
-
-/* Splitview */
-
 .splitview {
-  position: relative;
   width: 100%;
   height: 100vh;
+  position: absolute;
   overflow: hidden;
-}
-.panel {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-}
-.panel .content {
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
-  color: var(--white);
-}
-.panel .description {
-  width: fit-content;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  text-align: center;
-}
-.afterPicture {
-  background: url(../assets/img/sketch.webp) no-repeat center/cover;
-  box-shadow: var(--shadow);
-}
-.afterPicture {
-  width: 55%;
-  height: 70%;
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-}
-.bottom {
-  /* background-color: var(--black); */
   background: url(../assets/img/oldSchool.webp) no-repeat center/cover;
   z-index: 1;
 }
-.bottom .description {
-  right: 5%;
-}
-.bottom h2 {
-  font-size: 6em;
-  font-weight: 500;
+.description {
   width: fit-content;
-}
-.top {
-  background: var(--Home);
-  z-index: 2;
-  width: 50vw;
-}
-.top .description {
-  left: 0;
-  z-index: 3;
-}
-.top h2 {
-  font-family: "Rantera";
-  font-size: 6em;
-  font-weight: 500;
-  color: var(--white);
-}
-.handle {
-  height: 100%;
+  height: fit-content;
   position: absolute;
-  display: block;
-  background-color: var(--white);
-  width: 15px;
-  top: 0;
-  left: 50%;
-  box-shadow: 0 5px 20px var(--black);
-  z-index: 3;
-}
-.skewed .handle {
+  right: -50%;
   top: 50%;
-  transform: rotate(30deg) translateY(-50%);
-  height: 200%;
-  -webkit-transform-origin: top;
-  -moz-transform-origin: top;
-  transform-origin: top;
+  color: var(--white);
+  transform: translateY(-50%);
+  transition: 1s cubic-bezier(0.17, 0.67, 0.83, 0.67);
+  animation: txt 1s ease-out forwards;
 }
-.skewed .top {
-  transform: skew(-30deg);
-  margin-left: -1000px;
-  width: calc(50vw + 1000px);
+p {
+  font-family: "Rantera";
+  font-weight: 400;
+  margin: 1em 0;
+  padding: 0;
+  font-size: 5em;
 }
-.skewed .top .content {
-  transform: skew(30deg);
-  margin-left: 1000px;
+@keyframes txt {
+  100% {
+    right: 10%;
+  }
 }

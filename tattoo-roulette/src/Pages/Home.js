@@ -1,14 +1,22 @@
 import React from "react";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
-import Slider from "../Components/Slider";
 
 function Home() {
   return (
     <>
       <main>
         <Header />
-        <Slider />
+        <section className="splitview">
+          <div className="description">
+            <p>
+              <span>Trouves ton motif</span>
+            </p>
+            <p>
+              <span>On trouve l'artiste</span>
+            </p>
+          </div>
+        </section>
         <Footer />
       </main>
     </>
