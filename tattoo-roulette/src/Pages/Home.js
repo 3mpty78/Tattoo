@@ -9,12 +9,11 @@ function Home() {
         <Header />
         <section className="splitview">
           <div className="description">
-            <p>
-              <span>Trouves ton motif</span>
-            </p>
-            <p>
-              <span>On trouve l'artiste</span>
-            </p>
+            <span>Lances la roue,</span>
+            <br />
+            <span>Choisis un motif,</span>
+            <br />
+            <span>On trouve l'artiste.</span>
           </div>
         </section>
         <Footer />

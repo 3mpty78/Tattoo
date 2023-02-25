@@ -1,6 +1,9 @@
 /* Media queries */
 
 @media screen and (max-width: 1200px) {
+  .headerito {
+    height: 30vh;
+  }
   .navigation li {
     font-size: 0.8em;
   }
@@ -10,68 +13,143 @@
   img[src="../logo.png"] {
     width: 3em;
   }
+  .description {
+    right: unset;
+    height: 4em;
+    line-height: 4em;
+  }
+  .description span {
+    font-size: 4em;
+  }
+  @keyframes bascule {
+    0% {
+      top: 0;
+    }
+    28% {
+      top: 0;
+    }
+    33% {
+      top: -120%;
+    }
+    61% {
+      top: -120%;
+    }
+    66% {
+      top: -240%;
+    }
+    76% {
+      top: -240%;
+    }
+    95% {
+      top: -240%;
+    }
+    100% {
+      top: 0;
+    }
+  }
 }
 @media screen and (max-width: 950px) {
   .navigation li {
     font-size: 0.6em;
   }
-  h1 {
-    font-size: 1.8em;
-  }
-  header {
-    height: 12vh;
-  }
-  .welcome h2 {
-    font-size: 3em;
+  .headerito {
+    height: 20vh;
   }
 }
 @media screen and (max-width: 700px) {
-  h1 {
-    font-size: 1.5em;
-  }
-  img[src="../logo.png"] {
-    width: 2em;
-  }
-  header {
-    height: 10vh;
+  .logo {
+    font-size: 0.8em;
   }
   .navigation li {
     font-size: 0.6em;
   }
-  .welcome h2 {
+  .nav-toggler {
+    transform: scale(0.75);
+  }
+  .description {
+    height: 2.5em;
+  }
+  .description span {
     font-size: 2.5em;
   }
+  @keyframes bascule {
+    0% {
+      top: 0;
+    }
+    28% {
+      top: 0;
+    }
+    33% {
+      top: -180%;
+    }
+    61% {
+      top: -180%;
+    }
+    66% {
+      top: -360%;
+    }
+    76% {
+      top: -360%;
+    }
+    95% {
+      top: -360%;
+    }
+    100% {
+      top: 0;
+    }
+  }
 }
-@media screen and (max-width: 650px) {
-  .navigation {
-    width: 70%;
+@media (max-width: 650px) {
+  .headerito {
+    height: 30vh;
   }
-  h1 {
-    font-size: 1.2em;
-    display: none;
-  }
-  img[src="../logo.png"] {
-    width: 2.5em;
-    padding-left: 0.5em;
-  }
-  header {
-    height: 8vh;
+  .navigation ul {
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 25vh;
   }
 }
 @media screen and (max-width: 400px) {
-  .navigation {
-    width: 100%;
-    padding: 0 1em;
+  .description {
+    height: 2em;
   }
-  header section {
-    display: none;
+  .logo {
+    font-size: 0.5em;
+    margin-top: -2em;
+    margin-left: 1em;
   }
-  header {
-    height: 8vh;
+  .nav-toggler {
+    transform: scale(0.5);
+    margin-top: -2em;
   }
-  .welcome h2 {
+  .description span {
     font-size: 2em;
-    margin-top: 50%;
-    transform: translateY(-35%);
+  }
+  @keyframes bascule {
+    0% {
+      top: 0;
+    }
+    28% {
+      top: 0;
+    }
+    33% {
+      top: -220%;
+    }
+    61% {
+      top: -220%;
+    }
+    66% {
+      top: -440%;
+    }
+    76% {
+      top: -440%;
+    }
+    95% {
+      top: -440%;
+    }
+    100% {
+      top: 0;
+    }
   }
 }
