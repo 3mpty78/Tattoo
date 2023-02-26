@@ -19,6 +19,8 @@ function Home() {
           <div className="description">
             <span>Lances la roue,</span>
             <br />
+            <span>Choisis un style,</span>
+            <br />
             <span>Choisis un motif,</span>
             <br />
             <span>On trouve l'artiste.</span>

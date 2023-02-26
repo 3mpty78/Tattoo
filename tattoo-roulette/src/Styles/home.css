@@ -17,7 +17,7 @@ main {
   width: 200vw;
   height: 200vh;
   background: rgba(6, 61, 6, 0.753);
-  animation: carousel 25s cubic-bezier(1, -0.01, 0.81, 1.02) infinite;
+  animation: carousel 18s cubic-bezier(0.65, 0.41, 0.37, 0.96) infinite;
 }
 .carousel .firstImg {
   width: 100vw;
@@ -33,7 +33,7 @@ main {
   left: 100%;
   margin: 0;
   padding: 0;
-  background: url(../assets/img/wrapping-tattoo.webp) no-repeat center/cover;
+  background: url(../assets/img/tattoo_1.webp) no-repeat center/cover;
   transition: top 0.5s, left 0.5s;
 }
 .carousel .thirdImg {
@@ -61,42 +61,55 @@ main {
   0% {
     left: 0;
     top: 0;
+    filter: brightness(1);
   }
   15% {
     left: 0;
     top: 0;
+    filter: brightness(1);
   }
   20% {
     left: -100%;
     top: 0;
+    filter: brightness(1);
   }
   35% {
     left: -100%;
     top: 0;
+    filter: brightness(1);
   }
   40% {
     left: -100%;
     top: -100vh;
+    filter: brightness(1);
   }
   55% {
     left: -100%;
     top: -100vh;
+    filter: brightness(1);
   }
   60% {
     left: 0;
     top: -100vh;
+    filter: brightness(1);
   }
   75% {
     left: 0;
     top: -100vh;
+    filter: brightness(1);
   }
   80% {
-    top: 0;
     left: 0;
+    top: 0;
+    filter: brightness(1);
+  }
+  95% {
+    filter: brightness(0);
   }
   100% {
     left: 0;
     top: 0;
+    filter: brightness(1);
   }
 }
 
@@ -120,7 +133,7 @@ main {
   padding: 0;
   color: var(--white);
   font-size: 6em;
-  animation: bascule 8s ease infinite;
+  animation: bascule 18s ease infinite;
 }
 .description {
   position: absolute;
@@ -141,23 +154,29 @@ main {
   0% {
     top: 0;
   }
-  28% {
+  15% {
     top: 0;
   }
-  33% {
+  20% {
     top: -120%;
   }
-  61% {
+  35% {
     top: -120%;
   }
-  66% {
+  40% {
     top: -240%;
   }
-  76% {
+  55% {
     top: -240%;
+  }
+  60% {
+    top: -345%;
+  }
+  75% {
+    top: -345%;
   }
   95% {
-    top: -240%;
+    top: -345%;
   }
   100% {
     top: 0;

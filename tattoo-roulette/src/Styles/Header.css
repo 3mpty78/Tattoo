@@ -27,7 +27,7 @@ section {
 }
 .logo {
   z-index: 3;
-  position: fixed;
+  position: absolute;
   top: 5%;
   left: 3%;
   padding-bottom: 1em;

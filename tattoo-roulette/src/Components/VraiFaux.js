@@ -28,13 +28,13 @@ const VraiFaux = () => {
             <h3>Ca fais mal ???</h3>
             <p>
               On entend souvent dire "Les tatouages ça fais super mal ! Surout
-              sur <span>X partie du corps</span> !"
+              sur <em>X partie du corps</em> !"
               <br />
               Vas faire un tour sur cet article pour voir si t'es d'accords avec
               nous.
             </p>
             <NavLink to="" className="button">
-              <button id="btn">Let's go</button>
+              <button id="btn">J'ai mal</button>
             </NavLink>
           </div>
         </article>

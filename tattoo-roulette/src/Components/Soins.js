@@ -5,6 +5,15 @@ const Soins = () => {
   return (
     <>
       <section id="heal">
+        <div className="container">
+          <div className="titleContainer">
+            <p>
+              <span>
+                Un peu de <strong>lecture</strong>{" "}
+              </span>
+            </p>
+          </div>
+        </div>
         <article className="soins">
           <div className="healImg"></div>
           <div className="textContainer">
