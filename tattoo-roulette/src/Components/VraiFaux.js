@@ -5,20 +5,45 @@ const VraiFaux = () => {
   return (
     <>
       <section id="quiz">
-        <article className="vraiFaux">
+        <article>
           <div className="quizImg"></div>
           <div className="textContainer">
             <h2>Tattoo Kouiz !</h2>
             <h3>Vrai ou Faux ?</h3>
             <p>
-              Avant un tatouage on a souvent quelques préjugés en tête. Du genre
-              : "C'est vrai que je ne pourrais plus donner mon sang ?".
+              Le but de ce quiz est de te renseigner sur les eventuelles
+              questions que tu pourrais te poser. Donc hésites pas à faire des
+              recherches de ton côté si on aborde pas le sujet qui te
+              turlupines.
+            </p>
+            <NavLink to="" className="button">
+              <button id="btn">Let's go</button>
+            </NavLink>
+          </div>
+        </article>
+        <article>
+          <div className="zoneImg"></div>
+          <div className="textContainer">
+            <h2>Les zones sensibles</h2>
+            <h3>Ca fais mal ???</h3>
+            <p>
+              On entend souvent dire "Les tatouages ça fais super mal ! Surout
+              sur <span>X partie du corps</span> !"
               <br />
-              <br />
-              Heureusement, <span>Tattoo Roulette</span> a pensé à toi hehe. On
-              t'as préparé un petit quiz Vrai ou Faux pour t'aider un peu.
-              <br />
-              <br />
+              Vas faire un tour sur cet article pour voir si t'es d'accords avec
+              nous.
+            </p>
+            <NavLink to="" className="button">
+              <button id="btn">Let's go</button>
+            </NavLink>
+          </div>
+        </article>
+        <article>
+          <div className="Img"></div>
+          <div className="textContainer">
+            <h2>Tattoo Kouiz !</h2>
+            <h3>Vrai ou Faux ?</h3>
+            <p>
               Le but de ce quiz est de te renseigner sur les eventuelles
               questions que tu pourrais te poser. Donc hésites pas à faire des
               recherches de ton côté si on aborde pas le sujet qui te

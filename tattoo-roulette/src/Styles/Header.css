@@ -3,7 +3,7 @@ header {
   width: 100%;
   margin: 0;
   padding: 0;
-  height: 40vh;
+  height: 30vh;
   display: flex;
   flex-flow: row wrap;
   align-items: center;
@@ -29,7 +29,7 @@ section {
   z-index: 3;
   position: fixed;
   top: 5%;
-  left: 2%;
+  left: 3%;
   padding-bottom: 1em;
   width: 20vw;
   z-index: 2;
@@ -76,7 +76,7 @@ a {
   position: fixed;
   z-index: 10;
   top: 5%;
-  right: 5%;
+  right: 3%;
   height: 50px;
   width: 50px;
   border: none;

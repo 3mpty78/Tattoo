@@ -8,6 +8,14 @@ function Home() {
       <main>
         <Header />
         <section className="splitview">
+          <div className="carousel">
+            <div className="carouselContainer">
+              <div className="firstImg"></div>
+              <div className="secondImg"></div>
+              <div className="thirdImg"></div>
+              <div className="fourthImg"></div>
+            </div>
+          </div>
           <div className="description">
             <span>Lances la roue,</span>
             <br />

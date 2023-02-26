@@ -6,14 +6,112 @@ main {
   padding: 0;
   height: auto;
 }
+.carousel {
+  width: 200vw;
+  height: 100vh;
+}
+.carouselContainer {
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  width: 200vw;
+  height: 200vh;
+  background: rgba(6, 61, 6, 0.753);
+  animation: carousel 25s cubic-bezier(1, -0.01, 0.81, 1.02) infinite;
+}
+.carousel .firstImg {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: url(../assets/img/oldSchool.webp) no-repeat center/cover;
+  transition: top 0.5s, left 0.5s;
+}
+.carousel .secondImg {
+  width: 100vw;
+  height: 100vh;
+  left: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(../assets/img/wrapping-tattoo.webp) no-repeat center/cover;
+  transition: top 0.5s, left 0.5s;
+}
+.carousel .thirdImg {
+  width: 100vw;
+  height: 100vh;
+  left: 100%;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(../assets/img/pexels-cottonbro-studio-4125582.jpg) no-repeat
+    center/cover;
+  transition: top 0.5s, left 0.5s;
+}
+.carousel .fourthImg {
+  width: 100vw;
+  height: 100vh;
+  top: 100%;
+  margin: 0;
+  padding: 0;
+  background: url(../assets/img/pexels-cottonbro-studio-4813336.jpg) no-repeat
+    center/cover;
+  transition: top 0.5s, left 0.5s;
+}
+@keyframes carousel {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  15% {
+    left: 0;
+    top: 0;
+  }
+  20% {
+    left: -100%;
+    top: 0;
+  }
+  35% {
+    left: -100%;
+    top: 0;
+  }
+  40% {
+    left: -100%;
+    top: -100vh;
+  }
+  55% {
+    left: -100%;
+    top: -100vh;
+  }
+  60% {
+    left: 0;
+    top: -100vh;
+  }
+  75% {
+    left: 0;
+    top: -100vh;
+  }
+  80% {
+    top: 0;
+    left: 0;
+  }
+  100% {
+    left: 0;
+    top: 0;
+  }
+}
+
+/*  */
+
 .splitview {
   width: 100%;
   height: 100vh;
+  margin: 0;
+  padding: 0;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(../assets/img/oldSchool.webp) no-repeat center/cover;
+  overflow: hidden;
 }
 .description span {
   font-family: "Rantera";

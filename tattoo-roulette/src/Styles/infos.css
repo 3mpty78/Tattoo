@@ -1,55 +1,63 @@
 #infos {
-  background: var(--infoGradient);
+  background: url(../assets/img/handTat.webp) no-repeat center/cover;
   height: auto;
 }
-#heal,
-#quiz {
-  margin: 0;
+#heal {
+  margin: 2em 0;
   padding: 0;
   width: 100%;
-  height: 87vh;
+  height: 100vh;
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: row nowrap;
+  align-items: center;
   justify-content: center;
+}
+#quiz {
+  margin: 5em 0 0 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .soins {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
-  height: 90%;
-  padding: 0;
-  margin: 0;
-  width: 95%;
-  backdrop-filter: blur(10px) brightness(0.75);
+  height: 60%;
+  width: 90%;
+  backdrop-filter: blur(15px) brightness(0.75);
   border-radius: 25px;
   box-shadow: var(--shadow);
 }
-.vraiFaux {
+#quiz article {
   display: flex;
-  flex-flow: row-reverse wrap;
-  justify-content: space-between;
-  height: 90%;
-  width: 95%;
+  flex-flow: column nowrap;
+  align-items: center;
+  height: 70%;
+  width: 25%;
   padding: 0;
-  margin: 0;
+  margin: 5em 1em 0;
   backdrop-filter: blur(10px) brightness(0.75);
   border-radius: 25px;
-  box-shadow: var(--shadow);
-}
-.healImg,
-.quizImg {
-  width: 60%;
-  height: 100%;
-  box-shadow: var(--shadow);
 }
 .healImg {
-  background: url(../assets/img/knee.webp) no-repeat center/cover;
+  width: 60%;
+  height: 100%;
+}
+.healImg {
+  background: url(../assets/img/washing.webp) no-repeat center/cover;
   border-radius: 25px 0 0 25px;
 }
 .quizImg {
   background: url(../assets/img/pexels-cottonbro-studio-4125582.jpg) no-repeat
     center/cover;
-  border-radius: 0 25px 25px 0;
+  width: 100%;
+  height: 40%;
+  border-radius: 25px 25px 0 0;
+  box-shadow: var(--shadow);
 }
 .textContainer {
   width: 40%;
@@ -58,9 +66,25 @@
   align-items: center;
   justify-content: space-evenly;
   color: var(--white);
+  border-radius: 0 25px 25px 0;
 }
-.soins h2,
-.vraiFaux h2 {
+#quiz .textContainer {
+  width: 95%;
+  height: 60%;
+}
+.soins h2 {
+  font-family: "Rantera";
+  font-size: 2.6em;
+  text-align: center;
+  color: var(--yellow);
+  font-weight: bold;
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  margin: 0;
+}
+#quiz h2 {
+  font-family: "Rantera";
   font-size: 2.6em;
   text-align: center;
   color: var(--yellow);
@@ -71,7 +95,7 @@
   margin: 0;
 }
 .soins h3,
-.vraiFaux h3 {
+#quiz h3 {
   font-size: 1.4em;
   font-family: "Candara";
   text-align: center;
