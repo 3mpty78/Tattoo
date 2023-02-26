@@ -2,18 +2,6 @@
   background: url(../assets/img/arm.webp) fixed no-repeat left/cover;
   height: auto;
 }
-#heal {
-  margin: 0 auto;
-  padding: 10% 0 0;
-  width: 85%;
-  height: 80vh;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-  justify-content: flex-start;
-  border-bottom: 3px solid var(--white);
-}
-
 .container {
   width: 100%;
   margin: 2% auto 5%;
@@ -47,7 +35,17 @@ p span {
     left: 0;
   }
 }
-
+#heal {
+  margin: 0 auto;
+  padding: 10% 0 0;
+  width: 85%;
+  height: 80vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 3px solid var(--white);
+}
 .soins {
   display: flex;
   flex-flow: row nowrap;
@@ -58,6 +56,7 @@ p span {
   backdrop-filter: blur(15px) brightness(0.75);
   border-radius: 25px;
   box-shadow: var(--shadow);
+  overflow: hidden;
 }
 #quiz p {
   color: var(--white);
