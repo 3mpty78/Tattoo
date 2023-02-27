@@ -43,8 +43,7 @@ main {
   top: 100%;
   margin: 0;
   padding: 0;
-  background: url(../assets/img/pexels-cottonbro-studio-4125582.jpg) no-repeat
-    center/cover;
+  background: url(../assets/img/dermo.webp) no-repeat center/cover;
   transition: top 0.5s, left 0.5s;
 }
 .carousel .fourthImg {

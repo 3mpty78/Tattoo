@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 const Articles = () => {
   return (
     <>
+      <div className="borderTop"></div>
       <section id="quiz">
         <article>
           <div className="quizImg"></div>
@@ -39,15 +40,14 @@ const Articles = () => {
           </div>
         </article>
         <article>
-          <div className="nextImg"></div>
+          <div className="stylesImg"></div>
           <div className="textContainer">
-            <h2>Tattoo Kouiz !</h2>
-            <h3>Vrai ou Faux ?</h3>
+            <h2>Les styles</h2>
+            <h3>Old School ? Dotwork ? C'est quoi ?</h3>
             <p>
-              Le but de ce quiz est de te renseigner sur les eventuelles
-              questions que tu pourrais te poser. Donc hésites pas à faire des
-              recherches de ton côté si on aborde pas le sujet qui te
-              turlupines.
+              Le but de <em>Tattoo Roulette</em> c'est de générer un motif en
+              fonction d'un style. Sauf que si tu sais pas <em>quel style</em>{" "}
+              correspond à <em>quoi</em> visuellement, bah ça va être compliqué.
             </p>
             <NavLink to="" className="button">
               <button id="btn">Let's go</button>

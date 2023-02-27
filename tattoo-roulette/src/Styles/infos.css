@@ -28,7 +28,7 @@ p span {
   position: relative;
   overflow: hidden;
   left: 150%;
-  animation: slide-in 2s 1s ease forwards;
+  animation: slide-in 2s 0.5s ease forwards;
 }
 @keyframes slide-in {
   100% {
@@ -44,8 +44,6 @@ p span {
   flex-flow: column nowrap;
   align-items: center;
   justify-content: flex-start;
-  border-bottom: 3px solid var(--white);
-  box-shadow: 0 10px var(--black);
 }
 .soins {
   display: flex;
@@ -73,16 +71,24 @@ p span {
 .soins p {
   color: var(--white);
 }
+
+/* Second part of the page */
+.borderTop {
+  width: 100%;
+  border-top: 3px solid var(--white);
+  box-shadow: 0 10px 10px 5px var(--black);
+}
 #quiz {
   margin: 0 auto;
   padding: 0;
-  width: 85%;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-flow: row nowrap;
   backdrop-filter: blur(10px) brightness(0.75);
   align-items: flex-start;
   justify-content: space-evenly;
+  overflow-y: hidden;
 }
 #quiz p {
   color: var(--white);
@@ -95,7 +101,7 @@ p span {
   height: 85%;
   width: 25%;
   padding: 0;
-  margin: 5em 1em 0;
+  margin: 5em 0.5em 0;
   border-radius: 25px;
   background: var(--black);
   box-shadow: var(--shadow);
@@ -118,8 +124,7 @@ p span {
   border-radius: 25px 0 0 25px;
 }
 .quizImg {
-  background: url(../assets/img/pexels-cottonbro-studio-4125582.jpg) no-repeat
-    center/cover;
+  background: url(../assets/img/quizz.webp) no-repeat center/cover;
   width: 100%;
   height: 40%;
   border-radius: 25px 25px 0 0;
@@ -130,8 +135,8 @@ p span {
   height: 40%;
   border-radius: 25px 25px 0 0;
 }
-.nextImg {
-  background: url(../assets/img/sensible.webp) no-repeat center/cover;
+.stylesImg {
+  background: url(../assets/img/stencil.webp) no-repeat center/cover;
   width: 100%;
   height: 40%;
   border-radius: 25px 25px 0 0;
