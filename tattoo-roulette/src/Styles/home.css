@@ -112,9 +112,6 @@ main {
     filter: brightness(1);
   }
 }
-
-/*  */
-
 .splitview {
   width: 100%;
   height: 100vh;

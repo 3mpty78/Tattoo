@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Soins from "../Components/Soins";
-import VraiFaux from "../Components/VraiFaux";
+import Articles from "../Components/Articles";
 
 const Infos = () => {
   return (
@@ -9,7 +9,7 @@ const Infos = () => {
       <Header />
       <section id="infos">
         <Soins />
-        <VraiFaux />
+        <Articles />
       </section>
     </>
   );

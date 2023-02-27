@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const VraiFaux = () => {
+const Articles = () => {
   return (
     <>
       <section id="quiz">
@@ -39,7 +39,7 @@ const VraiFaux = () => {
           </div>
         </article>
         <article>
-          <div className="Img"></div>
+          <div className="nextImg"></div>
           <div className="textContainer">
             <h2>Tattoo Kouiz !</h2>
             <h3>Vrai ou Faux ?</h3>
@@ -59,4 +59,4 @@ const VraiFaux = () => {
   );
 };
 
-export default VraiFaux;
+export default Articles;
