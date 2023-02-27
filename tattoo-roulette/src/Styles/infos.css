@@ -23,7 +23,7 @@ p {
   margin: 0;
   padding-right: 0.2em;
 }
-p span {
+.titleContainer span {
   display: inline-block;
   position: relative;
   overflow: hidden;

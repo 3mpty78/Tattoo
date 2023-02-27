@@ -8,7 +8,6 @@ const Sensitive = () => {
       <Header />
       <main>
         <section id="sensitive">
-          <div className="contentHider"></div>
           <div className="sensitiveContainer">
             <h1>
               Les <em>zones sensibles</em> à tatouer
@@ -54,6 +53,7 @@ const Sensitive = () => {
                   <a
                     href="https://www.healthline.com/health/body-modification/pain-tattoos-chart#pain-chart"
                     target={"_blank"}
+                    rel="noreferrer"
                   >
                     healthline.com
                   </a>
