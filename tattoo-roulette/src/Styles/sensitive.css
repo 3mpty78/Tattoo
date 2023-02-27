@@ -1,0 +1,69 @@
+#sensitive {
+  background: url(../assets/img/arms2.webp) fixed no-repeat center/cover;
+  height: auto;
+}
+.sensitiveContainer {
+  width: 100%;
+  height: auto;
+  margin: 20vh auto 0;
+  padding: 0 0 5em;
+  display: flex;
+  text-align: center;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  backdrop-filter: blur(10px) brightness(0.75);
+  border-top: 3px solid var(--white);
+  /* box-shadow: -5px 0 10px var(--black), 5px 0 10px var(--black); */
+}
+.content {
+  display: flex;
+  flex-flow: row-reverse nowrap;
+  justify-content: space-evenly;
+  height: 100vh;
+}
+.content picture {
+  width: 45%;
+}
+.content picture .painImg {
+  width: 100%;
+  height: 92%;
+  border-radius: 25px;
+  box-shadow: 0 0 10px var(--black);
+  background: url(../assets/img/painmap.webp) no-repeat center/cover;
+}
+.content picture figcaption {
+  margin-top: 1em;
+  font-family: "rantera";
+  font-size: 1.5em;
+  color: var(--white);
+}
+.content picture figcaption a {
+  font-size: 1em;
+  color: var(--yellow);
+}
+#sensitive h1 {
+  font-size: 5em;
+  width: 100%;
+  font-family: "Rantera";
+  color: var(--white);
+  font-weight: lighter;
+  padding: 0.5em 0;
+  margin: 0;
+}
+#sensitive em {
+  font-style: normal;
+  color: var(--yellow);
+  font-weight: 900;
+}
+#sensitive p {
+  color: var(--white);
+  width: 45%;
+  height: fit-content;
+  word-wrap: normal;
+  margin: 0;
+  font-size: 1.5em;
+  font-family: "Candara";
+  font-weight: lighter;
+  text-align: justify;
+}

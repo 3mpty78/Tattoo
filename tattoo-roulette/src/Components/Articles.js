@@ -34,7 +34,7 @@ const Articles = () => {
               Vas faire un tour sur cet article pour voir si t'es d'accords avec
               nous.
             </p>
-            <NavLink to="" className="button">
+            <NavLink to="/sensitive" className="button">
               <button id="btn">J'ai mal</button>
             </NavLink>
           </div>

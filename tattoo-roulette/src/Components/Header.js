@@ -6,15 +6,15 @@ import Toggler from "./Toggler";
 const Header = () => {
   return (
     <>
+      <header className="headerito">
+        <Navigation />
+      </header>
       <section className="logo">
         <h1>
           Tattoo <br /> Roulette
         </h1>
         {/* <img src="../logo.png" alt="Logo de la page" /> */}
       </section>
-      <header className="headerito">
-        <Navigation />
-      </header>
       <button className="nav-toggler" onClick={Toggler}>
         <span className="line l1"></span>
         <span className="line l2"></span>

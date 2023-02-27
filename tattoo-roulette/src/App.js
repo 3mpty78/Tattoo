@@ -4,6 +4,7 @@ import Contact from "./Pages/Contact";
 import Heal from "./Pages/Heal";
 import Home from "./Pages/Home";
 import Infos from "./Pages/Infos";
+import Sensitive from "./Pages/Sensitive";
 import Spin from "./Pages/Spin";
 import "./Styles/index.css";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/artists" element={<Artists />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/heal" element={<Heal />} />
+          <Route path="/sensitive" element={<Sensitive />} />
         </Routes>
       </BrowserRouter>
     </>

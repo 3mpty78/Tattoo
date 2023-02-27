@@ -26,11 +26,9 @@ section {
   align-items: center;
 }
 .logo {
-  z-index: 3;
   position: absolute;
   top: 5%;
   left: 3%;
-  padding-bottom: 1em;
   width: 20vw;
   z-index: 2;
 }
@@ -73,8 +71,8 @@ a {
   transition: 0.4s;
 }
 .nav-toggler {
-  position: fixed;
-  z-index: 10;
+  position: absolute;
+  z-index: 20;
   top: 5%;
   right: 3%;
   height: 50px;
@@ -100,6 +98,9 @@ a {
 }
 .l3 {
   transform: translateY(10px);
+}
+.nav-toggler.active {
+  position: fixed;
 }
 .nav-toggler.active .l1 {
   transform: translateY(0) rotate(135deg);

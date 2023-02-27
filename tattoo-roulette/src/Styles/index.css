@@ -4,6 +4,7 @@
 @import "./infos.css";
 @import "./heal.css";
 @import "./responsive.css";
+@import "./sensitive.css";
 
 @font-face {
   font-family: "Rantera", "Candara", "Almendra", verdana;

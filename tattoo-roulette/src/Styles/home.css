@@ -16,7 +16,7 @@ main {
   flex-flow: row wrap;
   width: 200vw;
   height: 200vh;
-  background: rgba(6, 61, 6, 0.753);
+  background: var(--black);
   animation: carousel 18s cubic-bezier(0.65, 0.41, 0.37, 0.96) infinite;
 }
 .carousel .firstImg {
