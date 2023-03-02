@@ -52,9 +52,10 @@
   flex-flow: column nowrap;
   align-items: center;
   height: auto;
-  backdrop-filter: blur(10px) brightness(0.5);
+  backdrop-filter: brightness(0.33);
   border-top: 3px solid var(--white);
   border-bottom: 3px solid var(--white);
+  box-shadow: 0 5px 10px var(--black);
 }
 .articles article {
   display: flex;
@@ -119,24 +120,28 @@
   height: 50vh;
   border-radius: 15px;
   background: url(../assets/img/wrapping-tattoo.webp) no-repeat center/cover;
+  box-shadow: var(--shadow);
 }
 .washPicture {
   width: 55%;
   height: 50vh;
   border-radius: 15px;
   background: url(../assets/img/washing.webp) no-repeat center/cover;
+  box-shadow: var(--shadow);
 }
 .hydroPicture {
   width: 55%;
   height: 50vh;
   border-radius: 15px;
   background: url(../assets/img/aftercare.webp) no-repeat center/cover;
+  box-shadow: var(--shadow);
 }
 .soleilPicture {
   width: 55%;
   height: 50vh;
   border-radius: 15px;
   background: url(../assets/img/pool.webp) no-repeat center/cover;
+  box-shadow: var(--shadow);
 }
 
 /* Bas de page */
@@ -165,7 +170,7 @@
   height: auto;
   margin: 0;
   padding: 0;
-  backdrop-filter: blur(10px) brightness(0.5);
+  backdrop-filter: brightness(0.33);
   border-top: 3px solid var(--white);
 }
 .advice p {

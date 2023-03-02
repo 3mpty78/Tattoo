@@ -134,7 +134,7 @@ main {
 .description {
   position: absolute;
   top: 50%;
-  right: 10%;
+  right: -100%;
   width: fit-content;
   height: 6em;
   padding: 1em;
@@ -143,8 +143,14 @@ main {
   text-align: center;
   overflow: hidden;
   transition: 0.4s;
+  animation: fade-in 2s cubic-bezier(0.65, 0.41, 0.37, 0.96) forwards;
 
   border-bottom: 2px solid var(--white);
+}
+@keyframes fade-in {
+  100% {
+    right: 10%;
+  }
 }
 @keyframes bascule {
   0% {

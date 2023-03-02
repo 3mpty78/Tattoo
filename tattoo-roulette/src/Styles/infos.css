@@ -77,6 +77,7 @@ p {
   width: 100%;
   border-top: 3px solid var(--white);
   box-shadow: 0 10px 10px 5px var(--black);
+  margin-top: 5%;
 }
 #quiz {
   margin: 0 auto;
@@ -85,7 +86,7 @@ p {
   height: 100vh;
   display: flex;
   flex-flow: row nowrap;
-  backdrop-filter: blur(10px) brightness(0.75);
+  backdrop-filter: blur(10px);
   align-items: flex-start;
   justify-content: space-evenly;
   overflow-y: hidden;
@@ -103,7 +104,7 @@ p {
   padding: 0;
   margin: 5em 0.5em 0;
   border-radius: 25px;
-  background: var(--black);
+  background-color: var(--black);
   box-shadow: var(--shadow);
 }
 #quiz article h2 {

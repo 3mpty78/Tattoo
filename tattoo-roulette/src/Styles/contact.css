@@ -1,0 +1,5 @@
+#contact {
+  background: url(../assets/img/contact_background.webp) fixed no-repeat
+    center/cover;
+  height: 100vh;
+}
