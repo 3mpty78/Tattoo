@@ -1,5 +1,5 @@
 #sensitive {
-  background: url(../assets/img/arms2.webp) fixed no-repeat center/cover;
+  background: url(../assets/img/infos/arms2.webp) fixed no-repeat center/cover;
   height: auto;
 }
 .sensitiveContainer {
@@ -30,7 +30,7 @@
   height: 92%;
   border-radius: 25px;
   box-shadow: 0 0 10px var(--black);
-  background: url(../assets/img/painmap.webp) no-repeat center/cover;
+  background: url(../assets/img/infos/painmap.webp) no-repeat center/cover;
 }
 .content picture figcaption {
   margin-top: 1em;

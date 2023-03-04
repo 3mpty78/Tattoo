@@ -17,14 +17,14 @@ main {
   width: 200vw;
   height: 200vh;
   background: var(--black);
-  animation: carousel 18s cubic-bezier(0.65, 0.41, 0.37, 0.96) infinite;
+  animation: carousel 20s cubic-bezier(0.65, 0.41, 0.37, 0.96) infinite;
 }
 .carousel .firstImg {
   width: 100vw;
   height: 100vh;
   margin: 0;
   padding: 0;
-  background: url(../assets/img/oldSchool.webp) no-repeat center/cover;
+  background: url(../assets/img/home/oldSchool.webp) no-repeat center/cover;
   transition: top 0.5s, left 0.5s;
 }
 .carousel .secondImg {
@@ -33,7 +33,7 @@ main {
   left: 100%;
   margin: 0;
   padding: 0;
-  background: url(../assets/img/tattoo_1.webp) no-repeat center/cover;
+  background: url(../assets/img/home/tattoo_1.webp) no-repeat center/cover;
   transition: top 0.5s, left 0.5s;
 }
 .carousel .thirdImg {
@@ -43,7 +43,7 @@ main {
   top: 100%;
   margin: 0;
   padding: 0;
-  background: url(../assets/img/dermo.webp) no-repeat center/cover;
+  background: url(../assets/img/home/backPainting.webp) no-repeat center/cover;
   transition: top 0.5s, left 0.5s;
 }
 .carousel .fourthImg {
@@ -52,8 +52,8 @@ main {
   top: 100%;
   margin: 0;
   padding: 0;
-  background: url(../assets/img/pexels-cottonbro-studio-4813336.jpg) no-repeat
-    center/cover;
+  background: url(../assets/img/home/pexels-cottonbro-studio-4813336.jpg)
+    no-repeat center/cover;
   transition: top 0.5s, left 0.5s;
 }
 @keyframes carousel {
@@ -129,7 +129,7 @@ main {
   padding: 0;
   color: var(--white);
   font-size: 6em;
-  animation: bascule 18s ease infinite;
+  animation: bascule 20s ease infinite;
 }
 .description {
   position: absolute;

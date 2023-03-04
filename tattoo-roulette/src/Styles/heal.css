@@ -1,5 +1,6 @@
 #bigContainer {
-  background: url(../assets/img/bg-heal-js.webp) fixed no-repeat center/cover;
+  background: url(../assets/img/infos/bg-heal-js.webp) fixed no-repeat
+    center/cover;
   height: auto;
 }
 
@@ -119,28 +120,29 @@
   width: 55%;
   height: 50vh;
   border-radius: 15px;
-  background: url(../assets/img/wrapping-tattoo.webp) no-repeat center/cover;
+  background: url(../assets/img/infos/wrapping-tattoo.webp) no-repeat
+    center/cover;
   box-shadow: var(--shadow);
 }
 .washPicture {
   width: 55%;
   height: 50vh;
   border-radius: 15px;
-  background: url(../assets/img/washing.webp) no-repeat center/cover;
+  background: url(../assets/img/infos/washing.webp) no-repeat center/cover;
   box-shadow: var(--shadow);
 }
 .hydroPicture {
   width: 55%;
   height: 50vh;
   border-radius: 15px;
-  background: url(../assets/img/aftercare.webp) no-repeat center/cover;
+  background: url(../assets/img/infos/aftercare.webp) no-repeat center/cover;
   box-shadow: var(--shadow);
 }
 .soleilPicture {
   width: 55%;
   height: 50vh;
   border-radius: 15px;
-  background: url(../assets/img/pool.webp) no-repeat center/cover;
+  background: url(../assets/img/infos/pool.webp) no-repeat center/cover;
   box-shadow: var(--shadow);
 }
 
